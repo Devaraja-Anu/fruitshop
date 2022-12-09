@@ -1,90 +1,90 @@
-import oranges from "../images/oranges.jpg";
-import strawberries from "../images/strawberries.jpg";
-import grapes from "../images/grapes.jpg";
-import lemons from "../images/lemons.jpg";
+// import oranges from "../images/oranges.jpg";
+// import strawberries from "../images/strawberries.jpg";
+// import grapes from "../images/grapes.jpg";
+// import lemons from "../images/lemons.jpg";
 import appleGreen from "../images/greenApples.jpg";
 import appleRed from "../images/RedApples.jpg";
-import pears from "../images/pears.jpg";
-import kiwis from "../images/kiwis.jpg";
-import mangoes from "../images/mangoes.jpg";
-import raspberries from "../images/raspberries.jpg";
-import pineapples from "../images/pineapples.jpg";
-import blueberries from "../images/blueberries.jpg";
-import lychee from "../images/lychee.jpg";
-import figs from "../images/figs.jpg";
-import blackberries from "../images/blackberries.jpg";
-import guava from "../images/guava.jpg";
+// import pears from "../images/pears.jpg";
+// import kiwis from "../images/kiwis.jpg";
+// import mangoes from "../images/mangoes.jpg";
+// import raspberries from "../images/raspberries.jpg";
+// import pineapples from "../images/pineapples.jpg";
+// import blueberries from "../images/blueberries.jpg";
+// import lychee from "../images/lychee.jpg";
+// import figs from "../images/figs.jpg";
+// import blackberries from "../images/blackberries.jpg";
+// import guava from "../images/guava.jpg";
 import placeholder from "../images/productPlaceholder.jpg"
-import { useState, useEffect } from "react";
-import axios from "axios";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
-const fruitnames = [
-  {
-    fruit: "appleRed",
-    image: appleRed,
-  },
-  {
-    fruit: "appleGreen",
-    image: appleGreen,
-  },
-  {
-    fruit: "oranges",
-    image: oranges,
-  },
-  {
-    fruit: "strawberries",
-    image: strawberries,
-  },
-  {
-    fruit: "grapes",
-    image: grapes,
-  },
-  {
-    fruit: "lemons",
-    image: lemons,
-  },
+// const fruitnames = [
+//   {
+//     fruit: "appleRed",
+//     image: appleRed,
+//   },
+//   {
+//     fruit: "appleGreen",
+//     image: appleGreen,
+//   },
+//   {
+//     fruit: "oranges",
+//     image: oranges,
+//   },
+//   {
+//     fruit: "strawberries",
+//     image: strawberries,
+//   },
+//   {
+//     fruit: "grapes",
+//     image: grapes,
+//   },
+//   {
+//     fruit: "lemons",
+//     image: lemons,
+//   },
 
-  {
-    fruit: "pears",
-    image: pears,
-  },
-  {
-    fruit: "kiwis",
-    image: kiwis,
-  },
-  {
-    fruit: "mangoes",
-    image: mangoes,
-  },
-  {
-    fruit: "raspberries",
-    image: raspberries,
-  },
-  {
-    fruit: "pineapples",
-    image: pineapples,
-  },
-  {
-    fruit: "blueberries",
-    image: blueberries,
-  },
-  {
-    fruit: "lychee",
-    image: lychee,
-  },
-  {
-    fruit: "guava",
-    image: guava,
-  },
-  {
-    fruit: "figs",
-    image: figs,
-  },
-  {
-    fruit: "blackberries",
-    image: blackberries,
-  },
-];
+//   {
+//     fruit: "pears",
+//     image: pears,
+//   },
+//   {
+//     fruit: "kiwis",
+//     image: kiwis,
+//   },
+//   {
+//     fruit: "mangoes",
+//     image: mangoes,
+//   },
+//   {
+//     fruit: "raspberries",
+//     image: raspberries,
+//   },
+//   {
+//     fruit: "pineapples",
+//     image: pineapples,
+//   },
+//   {
+//     fruit: "blueberries",
+//     image: blueberries,
+//   },
+//   {
+//     fruit: "lychee",
+//     image: lychee,
+//   },
+//   {
+//     fruit: "guava",
+//     image: guava,
+//   },
+//   {
+//     fruit: "figs",
+//     image: figs,
+//   },
+//   {
+//     fruit: "blackberries",
+//     image: blackberries,
+//   },
+// ];
 
 const DB = [
   {
