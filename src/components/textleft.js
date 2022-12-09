@@ -60,7 +60,7 @@ import fruitpackage from "../images/fruitpackage.jpg";
                 onscreen: {
                   x: 0,
                   transition: {
-                    type: "spring",
+                    type: "spring", 
                     bounce: 0.4,
                     duration: 1.2,
                   },

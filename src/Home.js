@@ -34,7 +34,7 @@ function Home() {
       </div>
       {/* Part 1 */}
       <TextLeft />
-      <div className="w-screen h-96  sm:h-screen flex flex-col  sm:flex-row items-center justify-center sm:justify-between bg-orange-400  text-white text-5xl">
+      <div className="w-screen h-96  sm:h-screen flex  flex-col  sm:flex-row items-center justify-center sm:justify-between bg-orange-400  text-white text-5xl">
         <NavLink
           className="text-white text-6xl flex flex-col items-center justify-center px-10 "
           to="/products"
