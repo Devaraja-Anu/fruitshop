@@ -105,21 +105,21 @@ const defaultBackground = 'bg-background'
 
 const CardScroll = () => {
 
-  const [database, setdatabase] = useState([]);
+  // const [database, setdatabase] = useState([]);
 
-  useEffect(() => {
-    axios.get("http://localhost:3000/products").then((response) => {
-      setdatabase(response.data)
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("http://localhost:3000/products").then((response) => {
+  //     setdatabase(response.data)
+  //   });
+  // }, []);
 
-  const findImage = (fruitName) => {
-    const selectedFruit = fruitnames.find((fruit) => fruit.fruit === fruitName);
-    return selectedFruit?.image;
-  };
+  // const findImage = (fruitName) => {
+  //   const selectedFruit = fruitnames.find((fruit) => fruit.fruit === fruitName);
+  //   return selectedFruit?.image;
+  // };
 
   return DB.map((details ) => {
-    const imageSrc = findImage(details.image);
+    // const imageSrc = findImage(details.image);
 
     return (
       <div key={details.image} className="h-96 w-64 lg:my-4">

@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Footers from "./components/Footers";
 import fruits1 from "./images/fruits1.jpg";
 import ImageScroll from "./components/ImageScroll";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 

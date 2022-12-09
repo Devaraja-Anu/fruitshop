@@ -3,9 +3,9 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup';
 import {useForm} from 'react-hook-form'
 import Navbar from './components/Navbar';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
-import { Navigate, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 const schema = yup.object().shape({
     username:yup.string().required('Please enter a username'),
     email:yup.string().required('please enter your Email'),
