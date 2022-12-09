@@ -34,18 +34,22 @@ function Home() {
       </div>
       {/* Part 1 */}
       <TextLeft />
-      <div className="w-screen h-screen flex  bg-orange-400 text-white text-5xl">
-        <div className="w-9/12 ">
-          <ImageScroll />
-        </div>
+      <div className="w-screen h-96  sm:h-screen flex flex-col  sm:flex-row items-center justify-center sm:justify-between bg-orange-400  text-white text-5xl">
         <NavLink
-          className="text-white text-6xl flex items-center pl-10"
+          className="text-white text-6xl flex flex-col items-center justify-center px-10 "
           to="/products"
         >
-          More Products
+          <h1>
+            More Products
+          </h1>
+          <p className="text-9xl">{"\u27A0"}</p>
         </NavLink>
+
+        <div className="hidden sm:block w-auto sm:w-8/12 ">
+          <ImageScroll />
+        </div>
       </div>
-      <ScrollToTop/>
+      <ScrollToTop />
       <div className="w-screen">
         <Footers />
       </div>

@@ -39,7 +39,7 @@ import fruitpackage from "../images/fruitpackage.jpg";
           <div
             className={`h-screen border-2 md:flex overflow-clip ${item.background}`}
           >
-            <div className={`md:w-1/2 ${item.ImageLeft?'visible':'hidden'}`}>
+            <div className={`md:w-1/2 hidden ${item.ImageLeft?'sm:block':'sm:hidden'}`}>
               <img
                 className="h-96 w-screen md:h-screen object-cover md:rounded-r-3xl"
                 src={item.image}
@@ -74,7 +74,7 @@ import fruitpackage from "../images/fruitpackage.jpg";
               </div>
             </motion.div>
 
-            <div className={`md:w-1/2 ${item.ImageLeft?'hidden':'visible'}`}>
+            <div className={`md:w-1/2 block ${item.ImageLeft?'sm:hidden':'sm:block'}`}>
               <img
                 className="h-96 w-screen md:h-screen object-cover md:rounded-l-3xl"
                 src={item.image}
